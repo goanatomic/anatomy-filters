@@ -1,0 +1,4 @@
+<cms:if "<cms:gpc 'p' />">
+    <cms:set gpc_p = "<cms:gpc 'p' />" />
+    <cms:redirect url="<cms:route_link 'show' rt_id=gpc_p />" /> 
+</cms:if>
